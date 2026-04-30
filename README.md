@@ -6,11 +6,11 @@ A real-time x86 assembly program that visualizes periodic waveforms and their Fo
 ![Assembly](https://img.shields.io/badge/assembly-x86-red.svg)
 ![Platform](https://img.shields.io/badge/platform-DOS-green.svg)
 
-#About
+# About
 
 This project was developed as part of my 10th grade Computer Architecture and Assembly Language class. It demonstrates how complex periodic functions can be decomposed into simpler sinusoidal components.
 
-#Features
+# Features
 
 ### Eight Waveform Types
 1. **Square Wave** - Classic digital signal with sharp transitions
@@ -35,7 +35,7 @@ This project was developed as part of my 10th grade Computer Architecture and As
 - Real-time rendering in 320×200 VGA graphics mode
 - Progressive approximation improvement with more terms
 
-#Build System
+# Build System
 
 ### Prerequisites
 - **DOSBox** - DOS emulator ([download here](https://www.dosbox.com/))
@@ -96,7 +96,7 @@ Then simply run:
 build.bat
 ```
 
-Usage Guide
+# Usage Guide
 
 1. **Launch the program** - You'll see a welcome screen with instructions
 2. **Select a waveform** - Enter a number from 1-8
@@ -107,7 +107,7 @@ Usage Guide
 5. **Explore the wave** - Use arrow keys to pan horizontally
 6. **Try other waveforms** - Press `` ` `` to return to the menu
 
-## 🔬 Technical Implementation
+# Technical Implementation
 
 ### Architecture
 - **Platform:** 16-bit x86 
@@ -142,7 +142,7 @@ fourier.asm
     └── Keyboard input handling
 ```
 
-#Learning Outcomes
+# Learning Outcomes
 
 Through this project, I learned:
 - DOS interrupt services (INT 10h for graphics, INT 21h for I/O)
@@ -151,7 +151,7 @@ Through this project, I learned:
 - Optimization techniques for real-time rendering
 - algorithm implementation in assembly
 
-#Known Limitations
+# Known Limitations
 
 - Maximum 21-27 terms (memory and performance constraints)
 - Integer arithmetic causes slight rounding errors
@@ -160,7 +160,7 @@ Through this project, I learned:
 - Requires DOS or DOSBox environment
 
 
-#License
+# License
 
 This project is available under the MIT License. Feel free to use it for educational purposes.
 
